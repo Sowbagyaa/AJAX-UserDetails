@@ -9,8 +9,6 @@
 
 body {
     background: white;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-        Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
 
@@ -19,7 +17,6 @@ body {
 
     max-width: 1440px;
     margin: 0 auto !important;
-    background:linear-gradient(to bottom right, black,rgb(40, 66, 40),black);
     height: auto;
 
 }
@@ -62,7 +59,7 @@ body {
 }
 
 table{
-    margin: 30px;
+    margin: 50px;
     box-shadow: 6px 6px 6px green;
     background-color: white;
     
@@ -89,9 +86,14 @@ table,th,td {
       display: flex;
       justify-content: center;
       align-items: center;
+     
+  }
+  .details{
+    background:linear-gradient(to bottom right, black,rgb(40, 66, 40),black);
+    padding: 50px 0px !important;
   }
 
-  button{
+  .btn-secondary{
       margin: 20px;
       background-color: red !important;
       border: none !important;
