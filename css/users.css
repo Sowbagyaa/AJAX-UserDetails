@@ -23,11 +23,12 @@ body {
 
 .navbar {
     display: flex;
-    background: #6ab446 !important;
+    background: #4fc0d4 !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
     height: auto !important;
     width: inherit !important;
+    color: white !important;
 }
 
 
@@ -69,14 +70,14 @@ table{
 th{
     text-align: center !important;
     text-transform: uppercase !important;
-    background-color: #6ab446 !important;
-    color: white !important;
+    background-color: #26adc5 !important;
+    /* color: white !important; */
 }
 tr{
     text-align: left;
 }
 table,th,td {
-    border : 1px solid yellowgreen;
+    border : 1px solid #4cc0d4;
     font-family: helvetica;
     border-collapse: collapse;
     
@@ -91,15 +92,20 @@ table,th,td {
      
   }
   .details{
-    background:linear-gradient(to bottom right, black,rgb(40, 66, 40),black);
+    background:linear-gradient(to bottom right, black,#3c7883,black);
     padding: 50px 0px !important;
   }
 
   .btn-secondary{
       margin: 20px;
-      background-color: red !important;
+      background-color: rgb(0, 0, 0) !important;
       border: none !important;
       box-shadow: none !important;
+      color:white;
+  }
+  .btn-secondary:hover{
+      
+      border: 1px solid white !important;
   }
 
   .alertText{
