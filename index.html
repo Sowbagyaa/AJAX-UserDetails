@@ -38,17 +38,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Code Playground</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Courses
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Android development</a></li>
-                                <li><a class="dropdown-item" href="#">Web Development</a></li>
-                                <li><a class="dropdown-item" href="#">CMS Technologies</a></li>
-                            </ul>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Resources</a>
                         </li>
@@ -66,7 +55,15 @@
             <div class="button-wrapper">
                 <button type="button" class=" btn btn-secondary btn-lg" id="userDetailsButton">Get User Details</button>
             </div>
-            <table id="demo"></table>
+            <div class="search-wrapper container" id="search-bar" style="display: none;">
+                <h2>Search :</h2>
+                <input type="search" placeholder="Search User"   class="form-control search-input" data-table="user-list"/>
+            </div>
+            
+            <!-- <input type="text"  id="myInput" onkeyup="myFunction()" placeholder="Search user by name" title="Type in a name"> -->
+            <!-- <table id="demo"></table> -->
+            <table class=" table table-striped mt32 user-list" id="demo"></table>
+           
         </div>
     </div>
     <script src="/js/users.js"></script>
